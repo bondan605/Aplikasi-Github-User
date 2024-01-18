@@ -13,12 +13,12 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.app.githubuserapplication"
+        applicationId 'com.bondan.githubuserapp'
         minSdk 23
         targetSdk 30
         versionCode 1
         versionName "1.0"
-        buildConfigField("String", "GITHUB_TOKEN", '"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"')
+        buildConfigField("String", "GITHUB_TOKEN", '"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"')
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
